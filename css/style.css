@@ -1902,36 +1902,3 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
-.fh5co-cover {
-  background-image: url(./../images/main-s.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media screen and (min-width: 500px) and (max-width: 1000px) {
-  .fh5co-cover {
-    /* background-position: 0% 0% !important; */
-    background-image: url(./../images/main-md.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .fh5co-cover {
-    /* background-position: 0% 0% !important; */
-    background-image: url(./../images/main.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
-.fh5co-bg {
-  background-image: url(./../images/378A1363-md.JPG);
-}
-
-@media screen and (min-width: 768) {
-  .fh5co-bg {
-    background-image: url(./../images/378A1363.JPG);
-  }
-}
