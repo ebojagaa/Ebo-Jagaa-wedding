@@ -75,7 +75,7 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/main.JPG); background-repeat: no-repeat; background-size: cover;" data-stellar-background-ratio="0.1">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" data-stellar-background-ratio="0.1">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -293,7 +293,7 @@
 		</div>
 	</div>
 
-	<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/378A1363.JPG);">
+	<div id="fh5co-counter" class="fh5co-bg fh5co-counter">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -474,7 +474,14 @@
         year: 2022,
         month: 8,
         day: 12,
-		hours: 16
+		hours: 16,
+		words: { //words displayed into the countdown
+                days: 'өдөр' ,
+                hours: 'цаг' ,
+                minutes: 'минут' ,
+                seconds:  'секунд' 
+            },
+			plural: false
     });
 
 </script>
